@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "x25_stepper")(type "Legacy")(uri "${KIPRJMOD}/x25_stepper.lib")(options "")(descr ""))
+)
