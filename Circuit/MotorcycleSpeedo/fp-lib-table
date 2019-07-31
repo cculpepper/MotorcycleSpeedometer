@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name X25Stepper)(type KiCad)(uri ${KIPRJMOD}/X25Stepper.pretty)(options "")(descr ""))
+  (lib (name "X25Stepper")(type "KiCad")(uri "${KIPRJMOD}/X25Stepper.pretty")(options "")(descr ""))
+  (lib (name "CDRH6D28")(type "KiCad")(uri "${KIPRJMOD}/library/CDRH6D28.pretty")(options "")(descr ""))
 )

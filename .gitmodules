@@ -1,0 +1,3 @@
+[submodule "Circuit/MotorcycleSpeedo/library"]
+	path = Circuit/MotorcycleSpeedo/library
+	url = /home/chris/Code/AB1TJKicadLibrary
