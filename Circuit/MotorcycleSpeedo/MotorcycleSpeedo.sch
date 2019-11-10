@@ -2344,9 +2344,9 @@ Text Label 8450 8250 0    50   ~ 0
 BOOT0
 Text Label 8450 9450 0    50   ~ 0
 JTDO
-Text Label 10300 10550 0    50   ~ 0
-JTDI
 Text Label 10300 10650 0    50   ~ 0
+JTDI
+Text Label 10300 10550 0    50   ~ 0
 JTCK
 Text Label 10300 10450 0    50   ~ 0
 JTMS
@@ -4356,9 +4356,9 @@ F 3 "" H 11300 11850 50  0001 C CNN
 $EndComp
 Text Label 12400 11550 0    50   ~ 0
 JTMS
-Text Label 12400 11650 0    50   ~ 0
-JTCK
 Text Label 12400 11750 0    50   ~ 0
+JTCK
+Text Label 12400 11650 0    50   ~ 0
 JTDI
 Text Label 12400 11850 0    50   ~ 0
 JTDO
