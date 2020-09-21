@@ -10,4 +10,6 @@
   (lib (name "FM116")(type "Legacy")(uri "${KIPRJMOD}/library/FM116.lib")(options "")(descr ""))
   (lib (name "APT8L08")(type "Legacy")(uri "${KIPRJMOD}/library/APT8L08.lib")(options "")(descr ""))
   (lib (name "Tag-Connect")(type "Legacy")(uri "${KIPRJMOD}/library/TagConnect/4/Tag-Connect.lib")(options "")(descr ""))
+  (lib (name "VID6608")(type "KiCad")(uri "${KIPRJMOD}/library/VID6608.kicad_sym")(options "")(descr ""))
+  (lib (name "SK6812-SideA")(type "KiCad")(uri "${KIPRJMOD}/library/SK6812-SideA.kicad_sym")(options "")(descr ""))
 )

@@ -1,0 +1,87 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Manufacturer PN
+1,Single-cell battery,Battery_Cell,BT101,Battery_Cell,BatteryHolder_Keystone_1060_1x2032,1,~,CR2032-BS-6-1
+2,Unpolarized capacitor,C,C130 C131,9pF,C_0603_1608Metric,2,~,
+3,Unpolarized capacitor,C,C128 C129,20pF,C_0603_1608Metric,2,~,
+4,Unpolarized capacitor,C,C115,680pf,C_0603_1608Metric,1,~,CC0603KRX7R0BB681
+5,Unpolarized capacitor,C,C142,.01uF,C_0603_1608Metric,1,~,
+6,Unpolarized capacitor,C,C105 C109 C111 C112 C123 C126 C127 C134 C135 C137 C138 C139 C140 C143 C144,.1uF,C_0603_1608Metric,15,~,
+7,Unpolarized capacitor,C,C136 C141,0.22uF,C_0603_1608Metric,2,~,
+8,Unpolarized capacitor,C,C124 C125 C201,1uF,C_0603_1608Metric,3,~,
+9,Unpolarized capacitor,C,C202 C204,22uF,C_Elec_10x10.2,2,~,
+10,Polarized capacitor,CP,C102,33uH,C_Elec_4x5.4,1,~,VE-330M1HTR-0806
+11,Polarized capacitor,CP,C116,330uF,C_Elec_10x10.2,1,~,VZT331M1HTR-1010
+12,Unpolarized capacitor,C,C101,C,C_0805_2012Metric,1,~,
+13,Unpolarized capacitor,C,C103 C104 C106 C107 C108 C110 C113 C117 C118 C119 C120 C121 C122 C132 C145,C,C_0603_1608Metric,15,~,
+14,"Polarized capacitor, US symbol",CP1,C114,CP1,C_Elec_10x10.2,1,~,
+15,Diode,D,D119 D122 D131,D,D_SMA,3,~,C38653
+16,Schottky diode,D_Schottky,D101 D102,D_Schottky,D_SMA,2,~,
+17,Bidirectional transient-voltage-suppression diode,D_TVS,D103,D_TVS,D_SMA,1,~,
+18,Light emitting diode,LED,D132,HIGH,HF.SilkSF.Cu,1,~,
+19,Light emitting diode,LED,D105 D106 D107 D108 D109 D110,LED,LED_0603_1608Metric,6,~,
+20,Light emitting diode,LED,D134,LEFT,LeftPointingF.SilkSF.Cu,1,~,
+21,Light emitting diode,LED,D135,NEUTRAL,NF.SilkSF.Cu,1,~,
+22,Light emitting diode,LED,D133,RIGHT,RightPointingF.SilkSF.Cu,1,~,
+23,,SP721,D104,SP721,SOIC-8_3.9x4.9mm_P1.27mm,1,,
+24,"Resettable fuse, polymeric positive temperature coefficient",Polyfuse,F101,Polyfuse,Fuse_1206_3216Metric,1,~,JK-NSMD100-16V
+25,"Resettable fuse, polymeric positive temperature coefficient",Polyfuse,F102,Polyfuse,Fuse_1812_4532Metric,1,~,RF1334-000
+26,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02_Female,J103,Conn_01x02_Female,PinHeader_1x02_P1.27mm_Vertical,1,~,
+27,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02_Male,J111 J112 J113 J114,Conn_01x02_Male,PinSocket_1x02_P2.54mm_Vertical,4,~,
+28,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03_Female,J102 J104 J107,Conn_01x03_Female,PinHeader_1x03_P2.54mm_Vertical,3,~,
+29,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Female,J105,Conn_01x04_Female,PinHeader_1x04_P2.54mm_Vertical,1,~,
+30,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Female,J109,Conn_01x04_Female,PinHeader_1x04_P1.27mm_Vertical,1,~,
+31,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Female,J115,Conn_01x04_Female,PinSocket_1x04_P1.27mm_Vertical,1,~,
+32,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J108,Conn_01x04_Male,PinHeader_1x04_P1.27mm_Vertical,1,~,
+33,"Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x07_Female,J101,Conn_01x07_Female,PinSocket_1x07_P1.27mm_Vertical,1,~,
+34,"Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x04_Odd_Even,J106,Conn_02x04_Counter_Clockwise,PinHeader_2x04_P2.54mm_Vertical,1,~,
+35,Inductor,L,L201,10uH,CDRH6D28,1,~,
+36,Inductor,L,L101,330uh,L_Taiyo-Yuden_NR-80xx,1,~,SMNR8040-331MT
+37,4-wire bipolar stepper motor,Stepper_Motor_bipolar,M101 M102,Stepper_Motor_bipolar,x25FrontStepper,2,http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0,
+38,"N-MOSFET transistor, gate/source/drain",Q_NMOS_GSD,Q104,Q_NMOS_GSD,SOT-23,1,~,NCE3400
+39,"P-MOSFET transistor, gate/source/drain",Q_PMOS_GSD,Q103,Q_PMOS_GSD,SOT-23,1,~,
+40,Resistor,R,R111,.22,R_0603_1608Metric,1,~,
+41,Resistor,R,R151 R152,22,R_0603_1608Metric,2,~,
+42,Resistor,R,R120,120,R_0603_1608Metric,1,~,
+43,Resistor,R,R115,180,R_0603_1608Metric,1,~,
+44,Resistor,R,R109 R143 R145,470,R_0603_1608Metric,3,~,
+45,Resistor,R,R146 R147 R148 R149 R150,560,R_0603_1608Metric,5,~,
+46,Resistor,R,R102 R103 R104 R105 R106 R108 R129 R141,1K,R_0603_1608Metric,8,~,
+47,Resistor,R,R121 R142 R144,2.49K,R_0603_1608Metric,3,~,
+48,Resistor,R,R107 R112 R114 R116 R125 R131 R133 R134 R135 R136 R140,10K,R_0603_1608Metric,11,~,
+49,Resistor,R,R203,13K,R_0603_1608Metric,1,~,
+50,Resistor,R,R201,40.2K,R_0603_1608Metric,1,~,
+51,Resistor,R,R118 R202,59K,R_0603_1608Metric,2,~,
+52,Resistor,R,R101 R110 R113 R117 R126 R127 R128 R130 R132 R137 R138 R139,R,R_0603_1608Metric,12,~,
+53,"Single Schmitt NOT Gate, Low-Voltage CMOS",74AHCT1G14,U111,74AHCT1G14,SOT-353_SC-70-5,1,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,
+54,"1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223",AMS1117-5.0,U116,AMS1117-5.0,SOT-223,1,http://www.advanced-monolithic.com/pdf/ds1117.pdf,SSP1117-5.0V
+55,"300mA low dropout linear regulator, shutdown pin, 3.3V fixed positive output, SOT-23-5",AP131-33,U101,AP131-33,SOT-23-5,1,http://www.diodes.com/_files/datasheets/AP131.pdf,
+56,,AP65111AWU,U201,AP65111AWU,TSOT-23-6_HandSoldering,1,,
+57,,APT8L08,U103,APT8L08,SOIC-14_3.9x8.7mm_P1.27mm,1,DOCUMENTATION,
+58,"Absolute Barometric Pressure Sensor, LGA-8",BMP280,U104,BMP280,Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering,1,https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf,
+59,FM116B H Bridge,FM116B,U110,FM116B,SOT-23-6,1,https://datasheet.lcsc.com/szlcsc/Shenzhen-Fuman-Elec-FM116B_C190601.pdf,
+60,"DC Optocoupler, Vce 35V, CTR 50%, DIP-4",LTV-817,U106 U109,LTV-817,DIP-4_W7.62mm,2,http://www.us.liteon.com/downloads/LTV-817-827-847.PDF,
+61,"1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8",MC34063AD,U107,MC34063AD,SOIC-8_3.9x4.9mm_P1.27mm,1,http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF,
+62,"InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI",MPU-9250,U105,MPU-9250,InvenSense_QFN-24_3x3mm_P0.4mm,1,https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf,
+63,,SK6812-A,U102 U113 U114 U115 U117 U118 U119 U120 U121 U122 U123 U124,SK6812-A,SK6812-SideA,12,,
+64,"ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48",STM32F103C8Tx,U112,STM32F103C8Tx,LQFP-48_7x7mm_P0.5mm,1,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf,
+65,"High-Speed CAN Transceiver, enable pin, silent mode, SOIC-8",TJA1051T-E,U108,TJA1051T-E,SOIC-8_3.9x4.9mm_P1.27mm,1,http://www.nxp.com/documents/data_sheet/TJA1051.pdf,"TJA1050T/CM,118"
+66,,VID6608,U125,VID6608,SOIC-16_3.9x9.9mm_P1.27mm,1,http://47.110.239.244/UploadFile/down/2009111391710_VID6608%20manual%20060927.pdf,
+67,,HNA-12MM54T,V102,HNA-12MM54T,HNA-12MM54T,1,DOCUMENTATION,HNA-12MM54T
+68,,HV5812,V101 V103,HV5812,SOIC-28W_7.5x17.9mm_P1.27mm,2,DOCUMENTATION,
+69,Two pin crystal,Crystal,Y102,32K,Crystal_SMD_5032-2Pin_5.0x3.2mm,1,~,Q13FC1350000300
+70,Two pin crystal,Crystal,Y101,8M,Crystal_SMD_5032-2Pin_5.0x3.2mm,1,~,X50328MSB2GI
+
+
+
+
+
+Component Groups:,71
+Component Count:,170
+Fitted Components:,169
+Number of PCBs:,1
+Total components:,169
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,['default']
+BoM Date:,Sun 20 Sep 2020 01:09:59 PM EDT
+Schematic Source:,MotorcycleSpeedo.kicad_sch
+KiCad Version:,Eeschema (5.99.0-3329-ga80190e20)

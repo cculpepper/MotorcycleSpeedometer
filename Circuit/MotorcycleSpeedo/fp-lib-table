@@ -4,4 +4,5 @@
   (lib (name "Indicators")(type "KiCad")(uri "${KIPRJMOD}/Indicators.pretty")(options "")(descr ""))
   (lib (name "HNA-12MM54T_VFD")(type "KiCad")(uri "${KIPRJMOD}/library/HNA-12MM54T_VFD.pretty")(options "")(descr ""))
   (lib (name "MotorcycleSpeedo")(type "KiCad")(uri "${KIPRJMOD}/MotorcycleSpeedo.pretty")(options "")(descr ""))
+  (lib (name "SK6812-SideA")(type "KiCad")(uri "${KIPRJMOD}/library/SK6812-SideA.pretty")(options "")(descr ""))
 )
