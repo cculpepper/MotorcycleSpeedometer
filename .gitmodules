@@ -1,0 +1,3 @@
+[submodule "Circuit/MotorcycleSpeedo/library"]
+	path = Circuit/MotorcycleSpeedo/library
+	url = git@github.com:cculpepper/AB1TJKicadLibrary.git
